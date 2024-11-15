@@ -10,6 +10,6 @@ class Rectangle:
         return 2 * (self.width + self.height)
 
 
-rect = Rectangle(5, 10)
+rect = Rectangle(13, 12)
 print("Площа:", rect.calculate_area())
 print("Периметр:", rect.calculate_perimeter())
